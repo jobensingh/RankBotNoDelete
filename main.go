@@ -13,8 +13,8 @@ var (
 	pass     = flag.String("pass", "", "account password")
 	guild    = flag.String("guild", "", "guild (server) to join")
 	channel  = flag.String("chan", "", "channel to join")
-	message  = flag.String("msg", "rank", "message to be sent")
-	interval = flag.Int64("int", 180, "interval between messages in seconds")
+	message  = flag.String("msg", "", "message to be sent")
+	interval = flag.Int64("int", 40, "interval between messages in seconds")
 )
 
 func main() {
