@@ -45,7 +45,7 @@ func main() {
 		}
 		        channeler, _ := s.Channel(findChannel(s, g))
 			LastMessageID := channeler.LastMessageID
-		        s.ChannelMessageDelete(id, LastMessageID)
+		        
 	}
 }
 
