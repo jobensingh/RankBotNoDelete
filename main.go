@@ -43,7 +43,7 @@ func main() {
 		} else {
 			log.Print("sent message")
 		}
-		        channeler, _ := s.Channel(findChannel(s, g))
+		        
 		        
 	}
 }
